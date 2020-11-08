@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class javaClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		int sharks, turtles, seaLife;
+		sharks = 9;
+		turtles = 5;
+		seaLife = sharks % turtles; //% shows remainder 
+		
+		System.out.println("Total Sea Life: " + seaLife);
+
+	}
+
+}

@@ -1,0 +1,23 @@
+
+public class javaClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int value = 6;
+		
+		if (value == 22) //exactly equals
+		{
+			System.out.println("True");
+		} else {
+			System.out.println("Value not equal to: " + value);
+		}
+		
+		if (value != 22) //logical not equal to
+		{
+			System.out.println("False");
+		} else {
+			System.out.println("Value equal to: " + value);
+		}
+	}
+
+}

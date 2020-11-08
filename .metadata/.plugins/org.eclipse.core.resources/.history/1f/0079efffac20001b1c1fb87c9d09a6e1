@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class javaClass {
+	static double firstNum; 
+	static double secondNum;
+	static double equalsAns;
+	
+	public void calcMethod() {
+	
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner inputCal = new Scanner(System.in);
+		/*
+		//Can declare them all on a single line firstNum, secondNum, equalsAns;
+		double firstNum; 
+		double secondNum;
+		double equalsAns;
+		*/
+		
+		System.out.print("Enter first number: ");
+		firstNum = inputCal.nextDouble();
+		System.out.print("Enter second number: ");
+		secondNum = inputCal.nextDouble();
+		equalsAns = firstNum + secondNum;
+		System.out.print("Your answer: " + equalsAns);
+		inputCal.close(); //Close scanner object
+	}
+
+}
