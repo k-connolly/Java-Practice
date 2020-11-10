@@ -1,6 +1,5 @@
 INDEX VERSION 1.131+/Users/admin/Documents/Java-Practice/.metadata/.plugins/org.eclipse.jdt.core
 1673698605.index
-8424572.index
 2437461591.index
 2851029833.index
 692783786.index
