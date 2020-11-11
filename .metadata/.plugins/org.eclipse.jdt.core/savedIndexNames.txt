@@ -1,0 +1,16 @@
+INDEX VERSION 1.131+C:\Users\duologic\Documents\GitHub\Java-Practice\.metadata\.plugins\org.eclipse.jdt.core
+2609763258.index
+3395269778.index
+4053893237.index
+1694272871.index
+2259223461.index
+1047181951.index
+2001366531.index
+4210415988.index
+2596525359.index
+122036425.index
+4198284143.index
+318709995.index
+912959867.index
+2789191981.index
+2945225875.index
