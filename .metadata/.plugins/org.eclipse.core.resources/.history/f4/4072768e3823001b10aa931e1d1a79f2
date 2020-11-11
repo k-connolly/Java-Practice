@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class javaClass {
+	private static String fishName;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		javaClassNew newObject = new javaClassNew();
+		
+		System.out.print("Enter your fish name: ");
+		fishName = input.next();
+		input.close();
+		
+		newObject.setName(fishName);
+		newObject.message();
+		
+	}
+
+}

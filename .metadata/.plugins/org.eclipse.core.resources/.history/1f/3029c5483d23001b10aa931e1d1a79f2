@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class javaClass {
+	private static int userNum;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Pick a number!: ");
+		userNum = input.nextInt();
+		input.close();
+		
+		
+		
+		if (userNum < 9) {
+			System.out.println("Pass: " + i);
+		} else {
+			System.out.println("Fail: " + i);
+			if (userNum > 10) {
+				System.out.println("Nested Pass: " + i);
+			} else {
+				System.out.println("Nested Fail: " + i);
+			}
+		} 
+	}
+
+}

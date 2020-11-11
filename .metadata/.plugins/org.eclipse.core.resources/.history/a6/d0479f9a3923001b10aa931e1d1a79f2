@@ -1,0 +1,22 @@
+
+public class javaClassNew {
+	//Constructor class
+	private String fishName;
+	
+	public javaClassNew(String name) {
+		fishName = name;
+	}
+	
+	/* Not Needed currently
+	public void setName(String name) {
+		fishName = name;
+	}
+	*/
+	public String getName() {
+		return fishName;
+	}
+	
+	public void message() {
+		System.out.printf("Fish name is: %s\n", getName());
+	}
+}

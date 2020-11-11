@@ -1,0 +1,19 @@
+
+public class javaClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 20;
+		if (i < 9) {
+			System.out.print("Pass: " + i);
+		} else {
+			System.out.print("Fail: " + i);
+			if (i > 10) {
+				System.out.print("Nested Pass: " + i);
+			} else {
+				System.out.print("Nested Fail: " + i);
+			}
+		} 
+	}
+
+}
