@@ -5,7 +5,7 @@ public class javaClassNew {
 	private double r;
 	private int t; //time/period of the loan, in years
 	
-	public javaClassNew( double pr, double ra, int ti) {
+	public javaClassNew(double pr, double ra, int ti) {
 		p = pr;
 		r = ra;
 		t = ti;
