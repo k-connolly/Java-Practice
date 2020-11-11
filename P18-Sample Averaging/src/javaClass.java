@@ -24,9 +24,8 @@ public class javaClass {
 		}
 		input.close();
 		
-		average = (int) (total/10.0);
+		average = total / counter;
 		System.out.println("Average = " + average);
-
 	}
 
 }
