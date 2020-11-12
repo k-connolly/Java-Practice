@@ -44,9 +44,9 @@ public class mainClass {
 		
 		//Print out the user input values by get methods
 		System.out.println("EMPLOYEE INFO");
-		System.out.println(object.getSSN());
-		System.out.println(object.getName());
-		System.out.println(object.getAge());
+		System.out.println("Social:" + object.getSSN());
+		System.out.println("Name: " + object.getName());
+		System.out.println("Age: " + object.getAge());
 	}
 
 }
