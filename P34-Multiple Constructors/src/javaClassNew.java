@@ -1,5 +1,66 @@
 
 public class javaClassNew {
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	
+	public javaClassNew() {
+		this(null);
+	}
+
+	public javaClassNew(String f) {
+		this.firstName = f;
+		this.middleName = null;
+		this.lastName = null;
+	}
+	
+	public javaClassNew(String f, String m) {
+		this.firstName = f;
+		this.middleName = m;
+		this.lastName = null;
+	}
+	
+	public javaClassNew(String f, String m, String l) {
+		this.firstName = f;
+		this.middleName = m;
+		this.lastName = l;
+	}
+	
+	public void setName(String f, String m, String l) {
+		setFirst(f);
+		setMiddle(m);
+		setLast(l);
+	}
+	
+	public void setFirst(String f) {
+		firstName = f;
+	}
+	
+	public void setMiddle(String m) {
+		middleName = m;
+	}
+	
+	public void setLast(String l) {
+		lastName = l;
+	}
+	
+	public String getFirst() {
+		return firstName;
+	}
+	
+	public String getMiddle() {
+		return middleName;
+	}
+	
+	public String getLast() {
+		return lastName;
+	}
+	
+	public String display() {
+		return String.format("%s, %s, %s", getFirst(),getMiddle(),getLast()); //%s specify we are placing string values
+	}
+	
+	/*
 	private int hour;
 	private int minute;
 	private int second;
@@ -56,5 +117,6 @@ public class javaClassNew {
 	public String display() {
 		return String.format("%02d:%02d:%02d", getHour(),getMinute(),getSecond());
 	}
+	*/
 	
 }
